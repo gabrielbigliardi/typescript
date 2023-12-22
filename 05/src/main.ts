@@ -7,7 +7,8 @@ let a: One = 'hello'
 let b = a as Two // less specific 
 let c = a as Three // more specific 
 
-let d = <One>'world'
+// let d = 'world' as One
+let d = <One>'world' //o mesmo q acima
 let e = <string | number>'world'
 
 const addOrConcat = (a: number, b: number, c: 'add' | 'concat'): number | string => {
