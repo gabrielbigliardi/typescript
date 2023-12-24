@@ -87,8 +87,7 @@ const infinite = () => {
 
 // custom type guard 
 const isNumber = (value: any): boolean => {
-    return typeof value === 'number'
-        ? true : false
+    return typeof value === 'number' ? true : false
 }
 
 // use of the never type 
